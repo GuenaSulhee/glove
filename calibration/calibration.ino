@@ -18,7 +18,9 @@ const int xpin = A3;                  // x-axis of the accelerometer
 const int ypin = A2;                  // y-axis
 const int zpin = A1;                  // z-axis (only on 3-axis models)
 const int numReadings = 20;           //the size of readings array
-
+const int test=0;
+const int test3=2;
+const int test4 =30;
 
 
 //Création du tableau
@@ -67,7 +69,7 @@ Serial.println("\t");
 if(index=20){
     //appel de la fonction clignote
     Moyenne();
-    return 0
+
 }
   
   
